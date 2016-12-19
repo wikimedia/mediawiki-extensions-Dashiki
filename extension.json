@@ -1,0 +1,20 @@
+{
+	"name": "Dashiki",
+	"version": "0.1.0",
+	"author": [
+		"Dan Andreescu"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Dashiki",
+	"descriptionmsg": "dashiki-desc",
+	"type": "other",
+	"license-name": "GPL-2.0+",
+	"MessagesDirs": {
+		"Dashiki": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"Dashiki\\DashikiView": "includes/DashikiView.php"
+	},
+	"manifest_version": 2
+}
