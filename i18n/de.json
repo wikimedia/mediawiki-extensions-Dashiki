@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"dashiki-desc": "Zeigt die Dashboard-Konfiguration an und bearbeitet sie",
+	"dashiki-build": "Erstellt ein Dashboard mit dieser Konfiguration, die den Befehl verwendet:"
+}
