@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"dashiki-desc": "显示并编辑控制面板配置",
+	"dashiki-build": "使用命令构建带此配置的控制面板："
+}
