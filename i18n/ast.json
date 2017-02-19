@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"dashiki-desc": "Amosar y editar la configuración del tableru",
+	"dashiki-build": "Construir un tableru con esta configuración usando'l comandu:"
+}
