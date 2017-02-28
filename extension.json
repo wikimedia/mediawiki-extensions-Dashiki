@@ -16,5 +16,10 @@
 	"AutoloadClasses": {
 		"Dashiki\\DashikiView": "includes/DashikiView.php"
 	},
+	"JsonConfigModels": {
+		"Dashiki": {
+			"view": "Dashiki\\DashikiView"
+		}
+	},
 	"manifest_version": 2
 }
