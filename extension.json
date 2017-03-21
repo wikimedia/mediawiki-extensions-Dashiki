@@ -21,5 +21,11 @@
 			"view": "Dashiki\\DashikiView"
 		}
 	},
+	"JsonConfigs": {
+		"Dashiki": {
+			"pattern": "/^Dashiki\\:./",
+			"isLocal": true
+		}
+	},
 	"manifest_version": 2
 }

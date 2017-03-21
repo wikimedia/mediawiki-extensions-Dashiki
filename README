@@ -5,14 +5,4 @@ Install
 
 To install, add the following to LocalSettings.php
 
-    // Configure Dashiki sub-namespace with JsonConfig
-    $wgJsonConfigs['JsonConfig.Dashiki'] = array(
-      'pattern' => '/^Dashiki\:./',
-      'isLocal' => true,
-    );
-
-    // register the custom view implemented by the Dashiki extension
-    $wgJsonConfigModels['JsonConfig.Dashiki'] = array(
-        'class' => null,
-        'view'  => 'Dashiki\DashikiView',
-    );
+	wfLoadExtension( 'Dashiki' );
