@@ -17,12 +17,12 @@
 		"Dashiki\\DashikiView": "includes/DashikiView.php"
 	},
 	"JsonConfigModels": {
-		"Dashiki": {
+		"JsonConfig.Dashiki": {
 			"view": "Dashiki\\DashikiView"
 		}
 	},
 	"JsonConfigs": {
-		"Dashiki": {
+		"JsonConfig.Dashiki": {
 			"pattern": "/^Dashiki\\:./",
 			"isLocal": true
 		}
