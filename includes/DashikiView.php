@@ -41,7 +41,8 @@ class DashikiView extends JCDefaultContentView {
 	public function renderHeader( $dbkey ) {
 		$buildMessage = wfMessage( 'dashiki-build' );
 		$span = Html::element( 'span', null, $buildMessage );
-		$pre = Html::element( 'pre', null, 'gulp --config ' . wfEscapeShellArg( $dbkey ) . ' --layout /*...*/' );
+		$pre = Html::element( 'pre', null,
+			'gulp --config ' . wfEscapeShellArg( $dbkey ) . ' --layout /*...*/' );
 		return $span . $pre;
 	}
 }
