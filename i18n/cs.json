@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"dashiki-desc": "Zobrazení a editace konfigurace přehledových obrazovek",
+	"dashiki-build": "Přehledovou obrazovku s touto konfigurací vytvoříte pomocí příkazu:"
+}
