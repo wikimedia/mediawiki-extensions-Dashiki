@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"dashiki-desc": "Apresentação e edição da configuração do painel de controlo",
+	"dashiki-build": "Construir um painel de controlo com esta configuração usando o comando:"
+}
