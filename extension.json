@@ -18,8 +18,7 @@
 	},
 	"JsonConfigModels": {
 		"JsonConfig.Dashiki": {
-			"view": "Dashiki\\DashikiView",
-			"class": "JsonConfig\\JCObjContent"
+			"view": "Dashiki\\DashikiView"
 		}
 	},
 	"JsonConfigs": {
