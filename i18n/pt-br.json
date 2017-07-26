@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felipe L. Ewald"
+		]
+	},
+	"dashiki-desc": "Exibir e editar a configuração do painel",
+	"dashiki-build": "Crie um painel com esta configuração usando o comando:"
+}
