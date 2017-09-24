@@ -4,7 +4,6 @@ namespace Dashiki;
 
 use JsonConfig\JCContent;
 use JsonConfig\JCDefaultContentView;
-use FormatJson;
 use Html;
 use ParserOptions;
 use ParserOutput;
