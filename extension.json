@@ -8,13 +8,16 @@
 	"descriptionmsg": "dashiki-desc",
 	"type": "other",
 	"license-name": "GPL-2.0+",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"MessagesDirs": {
 		"Dashiki": [
 			"i18n"
 		]
 	},
-	"AutoloadClasses": {
-		"Dashiki\\DashikiView": "includes/DashikiView.php"
+	"AutoloadNamespaces": {
+		"Dashiki\\": "includes/"
 	},
 	"JsonConfigModels": {
 		"JsonConfig.Dashiki": {
