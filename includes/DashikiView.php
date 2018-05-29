@@ -38,6 +38,10 @@ class DashikiView extends JCDefaultContentView {
 		return $header . $tableDisplay;
 	}
 
+	/**
+	 * @param string $dbkey
+	 * @return string HTML
+	 */
 	public function renderHeader( $dbkey ) {
 		$buildMessage = wfMessage( 'dashiki-build' );
 		$span = Html::element( 'span', null, $buildMessage );
