@@ -5,6 +5,7 @@ namespace Dashiki;
 use JsonConfig\JCContent;
 use JsonConfig\JCDefaultContentView;
 use Html;
+use MediaWiki\Shell\Shell;
 use ParserOptions;
 use ParserOutput;
 use Title;
@@ -41,7 +42,7 @@ class DashikiView extends JCDefaultContentView {
 		$buildMessage = wfMessage( 'dashiki-build' );
 		$span = Html::element( 'span', null, $buildMessage );
 		$pre = Html::element( 'pre', null,
-			'gulp --config ' . wfEscapeShellArg( $dbkey ) . ' --layout /*...*/' );
+			'gulp --config ' . Shell::escape( $dbkey ) . ' --layout /*...*/' );
 		return $span . $pre;
 	}
 }
