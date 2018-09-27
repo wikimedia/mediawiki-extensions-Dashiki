@@ -43,10 +43,33 @@ class DashikiView extends JCDefaultContentView {
 	 * @return string HTML
 	 */
 	public function renderHeader( $dbkey ) {
-		$buildMessage = wfMessage( 'dashiki-build' )->text();
-		$span = Html::element( 'span', null, $buildMessage );
-		$pre = Html::element( 'pre', null,
-			'gulp --config ' . Shell::escape( $dbkey ) . ' --layout /*...*/' );
-		return $span . $pre;
+		$docsLink = Html::element( 'a', [
+			'href' => 'https://wikitech.wikimedia.org/wiki/Analytics/Systems/Dashiki/Configuration'
+		], '(see documentation)' );
+
+		if ( $this->startsWith( $dbkey, 'Dashiki:Annotations/' ) ) {
+			$message = wfMessage( 'dashiki-annotate' )->text();
+			$br = Html::element( 'br' );
+			$suffix = $br . $br;
+		} else {
+			$message = wfMessage( 'dashiki-build' )->text();
+			$suffix = Html::element( 'pre', null,
+				'gulp --config ' . Shell::escape( $dbkey ) . ' --layout /*...*/' );
+		}
+
+		$span = Html::element( 'span', null, $message . ' ' );
+
+		return $span . $docsLink . $suffix;
+	}
+
+	/**
+	 * @param string $text
+	 * @param string $query
+	 *
+	 * @return bool
+	 */
+	private function startsWith( $text, $query ) {
+		$length = strlen( $query );
+		return ( substr( $text, 0, $length ) === $query );
 	}
 }
