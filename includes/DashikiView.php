@@ -45,7 +45,7 @@ class DashikiView extends JCDefaultContentView {
 	public function renderHeader( $dbkey ) {
 		$docsLink = Html::element( 'a', [
 			'href' => 'https://wikitech.wikimedia.org/wiki/Analytics/Systems/Dashiki/Configuration'
-		], '(see documentation)' );
+		], wfMessage( 'parentheses', wfMessage( 'dashiki-configuration-doc-link-text' ) )->text() );
 
 		if ( $this->startsWith( $dbkey, 'Dashiki:Annotations/' ) ) {
 			$message = wfMessage( 'dashiki-annotate' )->text();
