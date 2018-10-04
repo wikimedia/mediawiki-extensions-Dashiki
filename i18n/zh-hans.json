@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"A Chinese Wikipedian"
 		]
 	},
 	"dashiki-desc": "显示并编辑控制面板配置",
-	"dashiki-build": "使用命令构建带此配置的控制面板："
+	"dashiki-build": "使用命令构建带此配置的控制面板：",
+	"dashiki-annotate": "检视并添加注释："
 }
