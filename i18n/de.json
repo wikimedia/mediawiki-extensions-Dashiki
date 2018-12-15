@@ -6,5 +6,6 @@
 	},
 	"dashiki-desc": "Zeigt die Dashboard-Konfiguration an und bearbeitet sie",
 	"dashiki-build": "Erstellt ein Dashboard mit dieser Konfiguration, die den Befehl verwendet:",
-	"dashiki-annotate": "Anmerkungen ansehen und hinzufügen:"
+	"dashiki-annotate": "Anmerkungen ansehen und hinzufügen:",
+	"dashiki-configuration-doc-link-text": "Dokumentation ansehen"
 }
