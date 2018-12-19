@@ -7,5 +7,6 @@
 	},
 	"dashiki-desc": "Exibir e editar a configuração do painel",
 	"dashiki-build": "Crie um painel com esta configuração usando o comando:",
-	"dashiki-annotate": "Visualizar e adicionar anotações:"
+	"dashiki-annotate": "Visualizar e adicionar anotações:",
+	"dashiki-configuration-doc-link-text": "ver documentação"
 }
