@@ -5,5 +5,7 @@
 		]
 	},
 	"dashiki-desc": "Visning og redigering av dashbordkonfigurasjon",
-	"dashiki-build": "Bygg et dashbord med denne konfig-en med kommandoen:"
+	"dashiki-build": "Bygg et dashbord med denne konfig-en med kommandoen:",
+	"dashiki-annotate": "Vis og legg til annoteringer:",
+	"dashiki-configuration-doc-link-text": "se dokumentasjon"
 }
