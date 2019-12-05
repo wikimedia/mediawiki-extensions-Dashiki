@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"dashiki-desc": "Pano yapılandırmasının görüntülenmesi ve düzenlenmesi",
+	"dashiki-build": "Komutu kullanarak bu config ile bir gösterge tablosu oluşturun:",
+	"dashiki-annotate": "Ek açıklamaları görüntüleyin ve ekleyin:",
+	"dashiki-configuration-doc-link-text": "belgelere bakın"
+}
