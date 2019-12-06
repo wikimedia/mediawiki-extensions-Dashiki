@@ -5,5 +5,7 @@
 		]
 	},
 	"dashiki-desc": "Amosar y editar la configuración del tableru",
-	"dashiki-build": "Construir un tableru con esta configuración usando'l comandu:"
+	"dashiki-build": "Construir un tableru con esta configuración usando'l comandu:",
+	"dashiki-annotate": "Ver y añadir anotaciones:",
+	"dashiki-configuration-doc-link-text": "ver la documentación"
 }
