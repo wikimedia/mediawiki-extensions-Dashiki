@@ -53,11 +53,11 @@ class DashikiView extends JCDefaultContentView {
 			$suffix = $br . $br;
 		} else {
 			$message = wfMessage( 'dashiki-build' )->text();
-			$suffix = Html::element( 'pre', null,
+			$suffix = Html::element( 'pre', [],
 				'gulp --config ' . Shell::escape( $dbkey ) . ' --layout /*...*/' );
 		}
 
-		$span = Html::element( 'span', null, $message . ' ' );
+		$span = Html::element( 'span', [], $message . ' ' );
 
 		return $span . $docsLink . $suffix;
 	}
