@@ -2,9 +2,9 @@
 
 namespace Dashiki;
 
+use Html;
 use JsonConfig\JCContent;
 use JsonConfig\JCDefaultContentView;
-use Html;
 use MediaWiki\Shell\Shell;
 use ParserOptions;
 use ParserOutput;
