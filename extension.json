@@ -22,17 +22,21 @@
 	"AutoloadNamespaces": {
 		"Dashiki\\": "includes/"
 	},
-	"JsonConfigModels": {
-		"JsonConfig.Dashiki": {
-			"view": "Dashiki\\DashikiView",
-			"class": "JsonConfig\\JCContent"
+	"attributes": {
+		"JsonConfig": {
+			"Models": {
+				"JsonConfig.Dashiki": {
+					"view": "Dashiki\\DashikiView",
+					"class": "JsonConfig\\JCContent"
+				}
+			},
+			"s": {
+				"JsonConfig.Dashiki": {
+					"pattern": "/^Dashiki\\:./",
+					"isLocal": true
+				}
+			}
 		}
 	},
-	"JsonConfigs": {
-		"JsonConfig.Dashiki": {
-			"pattern": "/^Dashiki\\:./",
-			"isLocal": true
-		}
-	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
