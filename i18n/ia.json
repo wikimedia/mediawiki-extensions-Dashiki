@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"dashiki-desc": "Visualisation e modification del configuration del tabuliero de instrumentos",
+	"dashiki-build": "Construe un tabuliero de instrumentos con iste configuration usante le commando:",
+	"dashiki-annotate": "Vider e adder annotationes:",
+	"dashiki-configuration-doc-link-text": "consulta documentation"
+}
