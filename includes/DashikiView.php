@@ -5,10 +5,10 @@ namespace Dashiki;
 use Html;
 use JsonConfig\JCContent;
 use JsonConfig\JCDefaultContentView;
+use MediaWiki\Page\PageReference;
 use MediaWiki\Shell\Shell;
 use ParserOptions;
 use ParserOutput;
-use Title;
 
 /**
  * Used to render Dashiki JSON configuration pages to HTML
@@ -20,7 +20,7 @@ class DashikiView extends JCDefaultContentView {
 	 * Customizes valueToHtml() for Dashiki
 	 *
 	 * @param JCContent $content
-	 * @param Title $title Context title for parsing
+	 * @param PageReference $page Context page for parsing
 	 * @param int|null $revId Revision ID (for {{REVISIONID}})
 	 * @param ParserOptions $options Parser options
 	 * @param bool $generateHtml Whether or not to generate HTML
@@ -28,12 +28,12 @@ class DashikiView extends JCDefaultContentView {
 	 * @return string
 	 */
 	public function valueToHtml(
-		JCContent $content, Title $title, $revId, ParserOptions $options, $generateHtml,
+		JCContent $content, PageReference $page, $revId, ParserOptions $options, $generateHtml,
 		ParserOutput &$output
 	) {
-		$header = $this->renderHeader( $title->getDBKey() );
+		$header = $this->renderHeader( $page->getDBKey() );
 		$tableDisplay = parent::valueToHtml(
-			$content, $title, $revId, $options, $generateHtml, $output
+			$content, $page, $revId, $options, $generateHtml, $output
 		);
 		return $header . $tableDisplay;
 	}
