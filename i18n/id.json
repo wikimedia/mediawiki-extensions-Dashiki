@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"dashiki-desc": "Menampilkan dan mengubah konfigurasi dasbor",
+	"dashiki-build": "Membangun sebuah dasbor dengan konfigurasi ini menggunakan perintah:",
+	"dashiki-annotate": "Lihat dan tambahkan anotasi:",
+	"dashiki-configuration-doc-link-text": "lihat dokumentasi"
+}
