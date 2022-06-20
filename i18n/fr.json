@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Verdy p",
 			"Wladek92"
 		]
 	},
 	"dashiki-desc": "Affichage et modification de la configuration du tableau de bord",
-	"dashiki-build": "Construire un tableau de bord avec cette configuration en utilisant cette commande :",
-	"dashiki-annotate": "Afficher et ajouter des annotations :",
+	"dashiki-build": "Construire un tableau de bord avec cette configuration en utilisant cette commande :",
+	"dashiki-annotate": "Afficher et ajouter des annotations :",
 	"dashiki-configuration-doc-link-text": "voir la documentation"
 }
