@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"Kwj2772"
 		]
 	},
-	"dashiki-desc": "대시보드 구성의 표시 및 편집"
+	"dashiki-desc": "대시보드 구성의 표시 및 편집",
+	"dashiki-configuration-doc-link-text": "설명문서 보기"
 }
