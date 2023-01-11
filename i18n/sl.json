@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"dashiki-desc": "Prikaz in urejanje konfiguracije nadzorne plošče",
+	"dashiki-build": "Ustvari nadzorno ploščo s to konfiguracijo z ukazom:",
+	"dashiki-annotate": "Ogled in dodajanje označitev:",
+	"dashiki-configuration-doc-link-text": "glejte dokumentacijo"
+}
