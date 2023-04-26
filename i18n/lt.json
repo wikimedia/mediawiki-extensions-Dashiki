@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"dashiki-desc": "Prietaisų skydelio konfigūracijos rodymas ir redagavimas",
+	"dashiki-build": "Sukurkite prietaisų skydelį naudodami šią konfigūraciją naudodami komandą:",
+	"dashiki-annotate": "Peržiūrėkite ir pridėkite komentarus:",
+	"dashiki-configuration-doc-link-text": "žiūrėti dokumentaciją"
+}
