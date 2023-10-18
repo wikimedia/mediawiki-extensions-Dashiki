@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Romaine"
+			"Romaine",
+			"McDutchie"
 		]
 	},
+	"dashiki-desc": "Weergave en bewerking van dashboardconfiguratie",
+	"dashiki-build": "Bouw een dashboard met deze configuratie met behulp van de opdracht:",
+	"dashiki-annotate": "Annotaties bekijken en toevoegen:",
 	"dashiki-configuration-doc-link-text": "bekijk documentatie"
 }
