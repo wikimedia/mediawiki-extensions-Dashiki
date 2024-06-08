@@ -6,9 +6,9 @@ use JsonConfig\JCContent;
 use JsonConfig\JCDefaultContentView;
 use MediaWiki\Html\Html;
 use MediaWiki\Page\PageReference;
+use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Shell\Shell;
 use ParserOptions;
-use ParserOutput;
 
 /**
  * Used to render Dashiki JSON configuration pages to HTML
