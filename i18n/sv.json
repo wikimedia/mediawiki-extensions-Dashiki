@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
+	"dashiki-desc": "Visning och redigering av instrumentpanelskonfiguration",
+	"dashiki-build": "Bygg en instrumentpanel med den här konfigurationen med hjälp av kommandot:",
+	"dashiki-annotate": "Visa och lägg till anteckningar:",
 	"dashiki-configuration-doc-link-text": "se dokumentation"
 }
