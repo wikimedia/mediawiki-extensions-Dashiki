@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Kwj2772",
-			"Ykhwong"
+			"Ykhwong",
+			"Tensama0415"
 		]
 	},
 	"dashiki-desc": "대시보드 구성의 표시 및 편집",
+	"dashiki-build": "명령어를 사용하여 이 설정으로 대시보드를 구축:",
+	"dashiki-annotate": "주석 확인 및 추가:",
 	"dashiki-configuration-doc-link-text": "설명문서 보기"
 }
