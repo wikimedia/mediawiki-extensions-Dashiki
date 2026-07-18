@@ -2,8 +2,8 @@
 
 namespace Dashiki;
 
-use JsonConfig\JCContent;
-use JsonConfig\JCDefaultContentView;
+use MediaWiki\Extension\JsonConfig\JCContent;
+use MediaWiki\Extension\JsonConfig\JCDefaultContentView;
 use MediaWiki\Html\Html;
 use MediaWiki\Page\PageReference;
 use MediaWiki\Parser\ParserOptions;
