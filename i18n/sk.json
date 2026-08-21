@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"dashiki-desc": "Zobrazovanie a úprava konfigurácie nástenky",
+	"dashiki-build": "Nástenku s touto konfiguráciou zostavíte príkazom:",
+	"dashiki-annotate": "Zobraziť a pridať anotácie:",
+	"dashiki-configuration-doc-link-text": "pozri dokumentáciu"
+}
